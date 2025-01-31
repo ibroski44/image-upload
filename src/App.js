@@ -6,7 +6,6 @@ import { ImageUpload } from "./Components/ImageUpload";
 function App() {
   return (
     <div className="App">
-      wel
       <ImageUpload />
     </div>
   );

@@ -71,12 +71,11 @@ export const ImageUpload = () => {
       {preview && <img src={preview} alt="Preview" width="200" />}
       <button onClick={handleUpload}>Upload Image</button>
 
-      <h2>Uploaded Images</h2>
-      <div>
+      {/*<div>
         {uploadedImages.map((img) => (
           <img key={img.id} src={img.imageUrl} alt="Uploaded" width="150" />
         ))}
-      </div>
+      </div>*/}
     </div>
   );
 };
